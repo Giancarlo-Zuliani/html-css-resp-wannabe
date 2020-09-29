@@ -72,6 +72,8 @@ img {
   clear: both;
 }
 
+  /* media query for 420px max screen */
+
 @media screen and (max-width:420px){
 
     /* section #lezioni */
@@ -82,12 +84,15 @@ img {
   }
   #lezioni .row>.left{
     width: 100%;
-    display:block;
   }
+
   #lezioni .row >.right{
     width:100%;
-    margin:auto;
-    display:block;
+    margin-top:10%;
+  }
+
+  #lezioni .row > .right img{
+    max-width: 100%;
   }
 
   /* section steps */
@@ -110,8 +115,22 @@ img {
     margin-bottom:10%;
   }
 
+  #steps .row > h1{
+    padding-top:10%;
+  }
+
   /* section why */
 
+  
+  #why .row h1{
+    margin-top:0;
+  }
+
+  #why .row .first img,
+  #why .row .second img,
+  #why .row .third img{
+    max-width: 90%;
+  }
 
 
 }
