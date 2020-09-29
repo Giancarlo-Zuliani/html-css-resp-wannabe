@@ -157,34 +157,49 @@ img {
     margin:0;
   }
 
+  h3 , img{
+    padding:2%;
+  }
+
+  hr{
+    margin-top:5%;
+  }
+
   .row{
     width:100%;
     margin:auto;
     padding:5%;
   }
-#lezioni{
-  width:100%;
-}
-  #lezioni .row{
-  width:100%;
-  margin:auto;
+
+  #lezioni{
+    width:100%;
   }
+
+  #lezioni .row{
+    width:100%;
+    margin:auto;
+  }
+
 #steps{
   width:100%;
 }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
     margin: 5% auto;
   }
+
   #why{
     width:100%;
     margin:auto;
   }
+
   #why .row h1{
     margin-top:0;
   }
+
   #steps .row h1{
     text-align: center;
   }
@@ -196,6 +211,4 @@ img {
     margin:5% 0;
     padding:5%;
   }
-
-
 }
